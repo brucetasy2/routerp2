@@ -9,12 +9,12 @@
       </div>
     </div>
     <!-- 很重要，找好久 有router-link 就要有 router-view -->
-    <router-view /> 
+    <router-view />
   </div>
 </template>
 
 <script>
-import Menu1 from '@/views/Menu.vue';
+import Menu1 from '@/views/Home.vue';
 
 export default {
   name: 'Homecontainer',
