@@ -14,7 +14,7 @@
 </template>
 
 <script>
-import Menu1 from '@/views/Home.vue';
+import Menu1 from '@/views/main/Home.vue';
 
 export default {
   name: 'Homecontainer',
