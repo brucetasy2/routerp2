@@ -1,0 +1,30 @@
+<template>
+  <div>
+    <Menu2 />
+    <div class='container-fluid'>
+      <div class='row'>
+        <main role='main' class='col-md-12 ml-sm-auto px-4'>
+          <router-link />
+        </main>
+      </div>
+    </div>
+    <!-- 很重要，找好久 有router-link 就要有 router-view -->
+    <router-view />
+  </div>
+</template>
+
+<script>
+import Menu2 from '@/views/sub_menu/Menu2.vue';
+
+export default {
+  name: 'Menucontainer',
+  components: {
+    Menu2,
+  },
+  data() {
+    return {};
+  },
+};
+</script>
+
+<style lang="scss"></style>

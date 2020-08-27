@@ -1,12 +1,6 @@
 // dwatow.github.io/2018/09-21-vuejs/vue-router-router-view
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link>  ||
-      <router-link :to="{ name: 'NP'}">NP</router-link>  ||
-      <router-link to="/about">About</router-link> ||
-      <router-link to="/NEXT">Next</router-link> ||
-    </div>
     <router-view/>
   </div>
 </template>
@@ -30,6 +24,10 @@
     &.router-link-exact-active {
       color: #42b983;
     }
+  }
+
+  .C1 {
+     color: #b9167b;
   }
 }
 </style>
