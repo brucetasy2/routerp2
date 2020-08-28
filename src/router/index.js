@@ -15,14 +15,9 @@ const routes = [
         component: () => import('../views/main/About.vue'),
       },
       {
-        path: 'B3',
-        name: 'B3',
-        component: () => import('../views/submenu/B3.vue'),
-      },
-      {
-        path: 'Page1',
-        name: 'NP',
-        component: () => import('../views/main/Page1.vue'),
+        path: 'ShareholderInfo',
+        name: 'ShareholderInfo',
+        component: () => import('../views/main/ShareholderInfo.vue'),
       },
       {
         path: 'NEXT',
@@ -47,6 +42,11 @@ const routes = [
         component: () => import('../views/submenu/B3.vue'),
       },
     ],
+  },
+  {
+    path: '*',
+    name: 'Admin 管理頁面',
+    component: () => import('../views/submenu/Menucontainer.vue'),
   },
 ];
 

@@ -1,7 +1,7 @@
 <template>
   <div class='next'>
-    <h1>This is a Next page</h1>
-    <button @click="signin">登入</button>
+    <h1>請登入系統</h1>
+    <button @click="signin" class="btn btn-primary">登入</button>
   </div>
 </template>
 

@@ -1,6 +1,6 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Vue 後台管理系統</a>
+    <a class="navbar-brand text-light bg-primary" href="#">Vue 後台管理系統</a>
     <div>
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
